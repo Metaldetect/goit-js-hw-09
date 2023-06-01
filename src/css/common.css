@@ -16,3 +16,73 @@ img {
   display: block;
   max-width: 100%;
 }
+/* --------switcher--------- */
+.switcher-container {
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+}
+.btn-switcher {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background: tomato;
+  border: none;
+  cursor: pointer;
+}
+/* -----------timer------------ */
+.timer-container {
+  display: flex;
+  justify-content: center;
+}
+.input-timer {
+  width: 200px;
+  height: 50px;
+  margin-right: 10px;
+}
+.btn-timer {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: teal;
+  color: #fafafa;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  font-size: 48px;
+}
+
+.field {
+  margin: 0 10px;
+}
+
+.label {
+  font-size: 14px;
+  margin-top: 5px;
+}
+.input-promises {
+  width: 200px;
+  height: 50px;
+}
+.btn-promises {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: blueviolet;
+  color: #fafafa;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
